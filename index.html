@@ -2229,6 +2229,7 @@
 
         // URLs de YouTube - videos disponibles
                 // URLs de YouTube - Ahora se cargan desde localStorage
+		localStorage.clear();
         let youtubeLinks = (function() {
             const stored = localStorage.getItem('sap_youtube_links');
             const defaultLinks = {"001": "https://youtu.be/XHEBOL7MkSI",
